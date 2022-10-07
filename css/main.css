@@ -83,48 +83,44 @@ p {
   margin-right: auto;
 }
 
-body {
+html {
+  font-size: 16px;
+}
+html body {
   background-color: #fff;
 }
-
-.main-header {
+html .main-header {
   display: flex;
   justify-content: space-between;
   padding: 2rem;
   background-color: #fff;
 }
-
-.main-nav > ul {
+html .main-nav > ul {
   visibility: hidden;
   display: none;
   gap: 0.5rem;
 }
-
-.unlisted {
+html .unlisted {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
-
-.burger {
+html .burger {
   font-size: 1.5rem;
   color: #999999;
 }
-
-.hero-grid {
+html .hero-grid {
   display: flex;
   flex-direction: column;
   text-align: left;
   padding: 2rem;
   margin-right: 3.5rem;
 }
-
-.graphic-svg {
+html .graphic-svg {
   width: 190px;
   height: auto;
 }
-
-.launching-soon {
+html .launching-soon {
   padding-bottom: 1.5rem;
   font-size: 1rem;
   font-family: "Inter", sans-serif;
@@ -134,8 +130,7 @@ body {
   letter-spacing: 2px;
   color: #FF3998;
 }
-
-.caption {
+html .caption {
   font-size: 48px;
   font-style: normal;
   font-family: "Inter", sans-serif;
@@ -144,8 +139,7 @@ body {
   margin: 0;
   padding-bottom: 24px;
 }
-
-.paragraph {
+html .paragraph {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -154,8 +148,7 @@ body {
   padding-bottom: 32px;
   margin: 0;
 }
-
-.btn {
+html .btn {
   padding: 22px 56px;
   border-radius: 100rem;
   font-family: "Helvetica";
@@ -170,12 +163,10 @@ body {
   box-shadow: 2px 1000px 1px #fff inset;
   margin-bottom: 5.5rem;
 }
-
-.btn1 {
+html .btn1 {
   margin-bottom: 4rem;
 }
-
-.gradient-background {
+html .gradient-background {
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -184,7 +175,7 @@ body {
   background: rgb(230, 110, 156);
   background: linear-gradient(90deg, rgb(230, 110, 156) 9%, rgb(242, 124, 69) 61%, rgb(254, 214, 104) 91%, rgb(224, 228, 163) 100%);
 }
-.gradient-background h3 {
+html .gradient-background h3 {
   padding-top: 7rem;
   font-size: 2.5rem;
   font-weight: 500;
@@ -192,57 +183,52 @@ body {
   margin: 0;
   padding-bottom: 1rem;
 }
-.gradient-background p {
+html .gradient-background p {
   font-size: 1.3rem;
   font-weight: 400;
   line-height: 2rem;
   padding-bottom: 2rem;
   margin: 0;
 }
-
-.icon-container {
+html .icon-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-bottom: 3.5rem;
   padding-top: 4rem;
 }
-.icon-container img {
+html .icon-container img {
   padding: 1.75rem;
 }
-
-.hidden-icon {
+html .hidden-icon {
   display: none;
 }
-
-.nft-container__text-elements {
+html .nft-container__text-elements {
   padding: 2rem;
   padding-bottom: 0;
 }
-.nft-container__text-elements h3 {
+html .nft-container__text-elements h3 {
   font-weight: 500;
   font-size: 2.5rem;
   line-height: 48px;
   padding-bottom: 1rem;
   margin: 0;
 }
-.nft-container__text-elements p {
+html .nft-container__text-elements p {
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 30px;
   margin: 0;
   color: #555555;
 }
-.nft-container__text-elements .nft-container__link {
+html .nft-container__text-elements .nft-container__link {
   text-decoration: underline;
   font-weight: 500;
 }
-
-.nft-container-cards {
+html .nft-container-cards {
   display: flex;
   overflow-x: hidden;
 }
-
-.nft-card {
+html .nft-card {
   background-color: #EEEEEE;
   width: 290px;
   border-radius: 7%;
@@ -250,19 +236,16 @@ body {
   margin-top: 2.5rem;
   margin-bottom: 5.75rem;
 }
-
-.nft-card__ {
+html .nft-card__ {
   min-width: 290px;
 }
-
-.nft-card-description {
+html .nft-card-description {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 1.5rem;
   gap: 1.5rem;
 }
-
-.card-item1 p {
+html .card-item1 p {
   font-weight: 500;
   font-size: 0.7rem;
   line-height: 0.7;
@@ -270,13 +253,12 @@ body {
   margin: 0;
   color: #FF8139;
 }
-
-.card-item2 {
+html .card-item2 {
   display: flex;
   padding: 0;
   margin: 0;
 }
-.card-item2 h3 {
+html .card-item2 h3 {
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.2;
@@ -284,16 +266,14 @@ body {
   margin: 0;
   padding-bottom: 1rem;
 }
-
-.card-item3 p {
+html .card-item3 p {
   font-weight: 400;
   text-align: left;
   font-size: 1rem;
   color: #777777;
   line-height: 1;
 }
-
-.card-item4 p {
+html .card-item4 p {
   font-weight: 500;
   font-size: 0.7rem;
   line-height: 0.7;
@@ -302,13 +282,12 @@ body {
   color: #777777;
   text-align: right;
 }
-
-.card-item5 {
+html .card-item5 {
   display: flex;
   padding: 0;
   margin: 0;
 }
-.card-item5 h3 {
+html .card-item5 h3 {
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.2;
@@ -316,36 +295,33 @@ body {
   margin: 0;
   padding-bottom: 1rem;
 }
-.card-item5 img {
+html .card-item5 img {
   max-height: 1.2rem;
 }
-
-.card-item6 p {
+html .card-item6 p {
   font-weight: 400;
   text-align: right;
   font-size: 1rem;
   color: #777777;
   line-height: 1;
 }
-
-.break-line {
+html .break-line {
   height: 2px;
 }
-
-.launching-soon2 {
+html .launching-soon2 {
   display: flex;
   flex-direction: column;
   text-align: left;
   padding: 2rem;
   margin-right: 3.5rem;
 }
-.launching-soon2 .launching-soon2__h2-element {
+html .launching-soon2 .launching-soon2__h2-element {
   width: 300px;
 }
-.launching-soon2 .launching-soon2__p-element {
+html .launching-soon2 .launching-soon2__p-element {
   width: 207px;
 }
-.launching-soon2 p {
+html .launching-soon2 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -353,4 +329,177 @@ body {
   color: #555555;
   padding-bottom: 32px;
   margin: 0;
+}
+html .footer-p {
+  margin: 0;
+  padding-top: 2rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 20px;
+  color: #555555;
+}
+html .footer-container {
+  padding: 2rem;
+  padding-top: 4rem;
+}
+html .media-container {
+  padding-top: 2rem;
+}
+html .media-container i {
+  font-size: 1.2rem;
+  padding-right: 1rem;
+  color: #999999;
+}
+html .media-container-contacts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 4rem;
+}
+html .container-copyright__ {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 20px;
+  color: #999999;
+  padding-top: 1.8rem;
+  padding-bottom: 4.5rem;
+  margin: 0;
+}
+html .container-copyright_hidden {
+  display: none;
+}
+html .media-contact h3 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 20px;
+  color: #555555;
+  padding-bottom: 1.7rem;
+  margin: 0;
+}
+html .media-contact p {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2;
+  color: #555555;
+  padding-bottom: 2.2rem;
+  margin: 0;
+}
+
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 16px;
+  }
+  html body {
+    padding: 5rem;
+  }
+  html .main-nav > ul {
+    display: flex;
+    gap: 0.5rem;
+    visibility: visible;
+  }
+  html .unlisted {
+    list-style: none;
+  }
+  html .main-nav__link {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 20px;
+    color: #555555;
+    padding-right: 1.75rem;
+  }
+  html .main-nav__link1 {
+    color: #FF3998;
+  }
+  html .burger {
+    display: none;
+  }
+  html .main-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+  html .btn {
+    margin-bottom: 14rem;
+  }
+  html .btn1 {
+    margin-bottom: 7.5rem;
+  }
+  html .gradient-background {
+    border-radius: 10px;
+  }
+  html .gradient-background h3 {
+    padding-top: 7.5rem;
+    padding-left: 4rem;
+  }
+  html .gradient-background p {
+    padding-bottom: 4rem;
+    padding-left: 4rem;
+  }
+  html .icon-container {
+    justify-content: center;
+    display: flex;
+    padding-bottom: 7.5rem;
+    padding-top: 7.5rem;
+  }
+  html .icon-container img {
+    padding: 0 3.5rem 0 3.5rem;
+  }
+  html .icon-container .hidden-icon {
+    display: flex;
+  }
+  html .nft-container-cards {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7rem;
+  }
+  html .nft-container__text-elements p {
+    padding-bottom: 3.5rem;
+  }
+  html .launching-soon2 {
+    display: flex;
+    text-align: left;
+    margin-right: 3.5rem;
+  }
+  html .launching-soon2 .launching-soon2__h2-element {
+    width: 700px;
+  }
+  html .launching-soon2 .launching-soon2__p-element {
+    width: 600px;
+    padding-bottom: 2.5rem;
+  }
+  html .launching-soon2__h3-element h3 {
+    padding-top: 7rem;
+  }
+  html .container-copyright {
+    display: flex;
+    justify-content: space-between;
+  }
+  html .container-copyright .container-copyright_hidden {
+    display: flex;
+  }
+  html .container-copyright .container-copyright__ {
+    margin: 0;
+    padding: 7.5rem 0 0;
+  }
+  html .footer-container {
+    margin-top: 3rem;
+  }
+  html .footer-container img {
+    width: 198px;
+    margin-bottom: 2rem;
+  }
+  html .media-container-contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5rem;
+  }
+  html .footer-container__media {
+    display: flex;
+    justify-content: space-between;
+  }
+  html .media-container img {
+    margin: 0;
+  }
+  html .media-container p {
+    padding-bottom: 2rem;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -1,6 +1,8 @@
 
 @use 'reset';
 
+html {
+  font-size: 16px;
 
 body{
   background-color: #fff;
@@ -302,10 +304,6 @@ p{
   padding: 2rem;
   margin-right: 3.5rem;
 
-  .launching-soon2__h3-element{
-    
-  }
-
   .launching-soon2__h2-element{
     width: 300px;
   }
@@ -326,4 +324,251 @@ p{
 
 }
 
+// footer
 
+.footer-p{
+  margin: 0;
+  padding-top: 2rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 20px;
+  color: #555555;
+}
+
+
+.footer-container{
+  padding: 2rem;
+  padding-top: 4rem;
+}
+
+.media-container{
+
+  padding-top: 2rem;
+
+  i{
+    font-size: 1.2rem;
+    padding-right: 1rem;
+    color: #999999;
+  }
+}
+
+.media-container-contacts{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 4rem;
+
+}
+
+.container-copyright__{
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 20px;
+  color: #999999;
+  padding-top: 1.8rem;
+  padding-bottom: 4.5rem;
+  margin: 0;
+}
+
+.container-copyright_hidden{
+  display: none;
+}
+
+// contact/footer
+
+.media-contact{
+
+  h3{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 20px;
+    color: #555555;
+    padding-bottom: 1.7rem;
+    margin: 0;
+  }
+
+  p{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2;
+    color: #555555;
+    padding-bottom: 2.2rem;
+    margin: 0;
+
+  }
+
+}
+
+}
+
+
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 16px;
+ 
+  // header
+    body{
+      padding: 5rem;
+    }
+
+  .main-nav > ul {
+    display:flex;
+    gap: 0.5rem;
+    visibility: visible;
+  }
+
+.unlisted {
+    list-style: none;
+}
+    
+  .main-nav__link{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 20px;
+    color: #555555;
+    padding-right: 1.75rem;
+  }
+
+  .main-nav__link1{
+    color: #FF3998;
+  }
+
+  .burger{
+    display: none;
+  }
+
+  .main-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+  
+  .btn{
+    margin-bottom: 14rem;
+  }
+
+  .btn1{
+    margin-bottom: 7.5rem;
+  }
+
+  .gradient-background{
+    border-radius: 10px;
+
+    h3{
+      padding-top: 7.5rem;
+      padding-left: 4rem;
+    }
+
+    p{
+      padding-bottom: 4rem;
+      padding-left: 4rem;
+    } 
+  }
+  
+
+  // company icons
+
+  .icon-container{
+    justify-content: center;
+    display: flex;
+    padding-bottom: 7.5rem;
+    padding-top: 7.5rem;
+  
+    img{
+      padding: 0 3.5rem 0 3.5rem;
+  }
+  
+  .hidden-icon{
+    display: flex;
+  }
+  }
+
+  // nft card
+
+  .nft-container-cards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7rem;
+  }
+
+  .nft-container__text-elements{
+
+    p{
+      padding-bottom: 3.5rem;
+    }
+  }
+
+  // 2nd launch
+
+  .launching-soon2{
+    display: flex;
+    text-align: left;
+    margin-right: 3.5rem;
+  
+    .launching-soon2__h2-element{
+      width: 700px;
+    }
+  
+    .launching-soon2__p-element{
+      width: 600px;
+      padding-bottom: 2.5rem;
+    }
+  }
+
+  .launching-soon2__h3-element{
+    h3{
+      padding-top: 7rem;
+    }
+  }
+
+  // footer
+
+  .container-copyright{
+
+    display: flex;
+    justify-content: space-between;
+
+    .container-copyright_hidden{
+      display: flex;
+    }
+
+    .container-copyright__{
+      margin: 0;
+      padding: 7.5rem 0 0;
+    }
+
+  }
+
+
+  .footer-container{
+      margin-top: 3rem;
+
+    img{
+      width: 198px;
+      margin-bottom: 2rem;
+    }
+    
+  }
+
+  .media-container-contacts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5rem;
+
+  }
+
+  .footer-container__media{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .media-container{
+    img{
+      margin: 0;
+    }
+
+    p{
+      padding-bottom: 2rem;
+    }
+  }
+}
+}

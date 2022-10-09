@@ -1,0 +1,574 @@
+
+@use 'reset';
+
+html {
+  font-size: 16px;
+
+body{
+  background-color: #fff;
+}
+
+.main-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+
+.main-nav > ul {
+    visibility: hidden;
+    display: none;
+    gap: 0.5rem;
+  }
+
+.unlisted {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .burger{
+    font-size: 1.5rem;
+    color:#999999;
+  }
+
+// 2nd section
+
+
+
+.hero-grid{
+  display: flex;
+  flex-direction: column;
+  // position: absolute;
+  text-align: left;
+  padding: 2rem;
+  margin-right: 3.5rem;
+}
+
+.graphic-svg{
+  width: 190px;
+  height: auto;
+}
+
+// styling
+.launching-soon{
+  padding-bottom: 1.5rem;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 1.1rem;
+  margin: 0;
+  letter-spacing: 2px;
+  color:#FF3998;
+}
+
+.caption{
+  font-size: 48px;
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  line-height: 58px;
+  margin: 0;
+  padding-bottom: 24px;
+}
+
+.paragraph{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #555555;
+  padding-bottom: 32px;
+  margin: 0;
+}
+
+.btn{
+  padding: 22px 56px;
+  border-radius: 100rem;
+  font-family: 'Helvetica';
+  line-height: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 4px transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #da39b1, #e9882c, #f1f092);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+  margin-bottom: 5.5rem;
+}
+
+.btn1{
+  margin-bottom: 4rem;
+ }
+
+// styling
+
+.gradient-background{
+  display: flex;
+  flex-direction: column;
+  // position: absolute;
+  text-align: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background: rgb(230,110,156);
+background: linear-gradient(90deg, rgba(230,110,156,1) 9%, rgba(242,124,69,1) 61%, rgba(254,214,104,1) 91%, rgb(224, 228, 163) 100%);
+
+h3{
+  padding-top: 7rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 48px;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+p{
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 2rem;
+  padding-bottom: 2rem;
+  margin: 0;
+}
+
+}
+
+// icons
+
+.icon-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 3.5rem;
+  padding-top: 4rem;
+
+  img{
+    padding: 1.75rem;
+  }
+}
+
+.hidden-icon{
+  display: none;
+}
+
+// nft card section
+
+.nft-container__text-elements{
+  padding: 2rem;
+  padding-bottom: 0;
+
+  h3{
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 48px;
+  padding-bottom: 1rem;
+  margin: 0;
+  }
+
+  p{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 30px;
+    margin: 0;
+    color: #555555;
+  }
+
+  .nft-container__link{
+    text-decoration: underline;
+    font-weight: 500;
+  }
+
+}
+
+
+.nft-container-cards{
+  display: flex;
+  overflow-x: hidden;
+}
+
+
+.nft-card{
+  background-color: #EEEEEE;
+  width: 290px;
+  border-radius: 7%;
+  margin-left: 2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 5.75rem;
+}
+
+.nft-card__{
+  min-width: 290px;
+}
+
+.nft-card-description{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1.5rem;
+  gap: 1.5rem;
+}
+
+
+.card-item1{
+  p{
+  font-weight: 500;
+  font-size: 0.7rem;
+  line-height: 0.7;
+  padding-bottom: 0.7rem;
+  margin: 0;
+  color: #FF8139;
+  }
+}
+
+.card-item2{
+  display: flex;
+  padding: 0;
+  margin: 0;
+
+  h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: right;
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+
+}
+
+.card-item3{
+  p{
+    font-weight: 400;
+    text-align: left;
+    font-size: 1rem;
+    color: #777777;
+    line-height: 1;
+
+  }
+}
+
+.card-item4{
+  p{
+  font-weight: 500;
+  font-size: 0.7rem;
+  line-height: 0.7;
+  padding-bottom: 0.7rem;
+  margin: 0;
+  color: #777777;
+  text-align: right;
+  }
+}
+
+.card-item5{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  
+  h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: right;
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+
+  img{
+    max-height: 1.2rem;
+  }
+}
+
+.card-item6{
+
+  p{
+    font-weight: 400;
+    text-align: right;
+    font-size: 1rem;
+    color: #777777;
+    line-height: 1;
+
+  }
+
+}
+
+
+// 2nd launching soon section
+
+.break-line{
+  height: 2px;
+}
+
+.launching-soon2{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 2rem;
+  margin-right: 3.5rem;
+
+  .launching-soon2__h2-element{
+    width: 300px;
+  }
+
+  .launching-soon2__p-element{
+    width: 207px;
+  }
+
+  p{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #555555;
+  padding-bottom: 32px;
+  margin: 0;
+  }
+
+}
+
+// footer
+
+.footer-p{
+  margin: 0;
+  padding-top: 2rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 20px;
+  color: #555555;
+}
+
+
+.footer-container{
+  padding: 2rem;
+  padding-top: 4rem;
+}
+
+.media-container{
+
+  padding-top: 2rem;
+
+  i{
+    font-size: 1.2rem;
+    padding-right: 1rem;
+    color: #999999;
+  }
+}
+
+.media-container-contacts{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 4rem;
+
+}
+
+.container-copyright__{
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 20px;
+  color: #999999;
+  padding-top: 1.8rem;
+  padding-bottom: 4.5rem;
+  margin: 0;
+}
+
+.container-copyright_hidden{
+  display: none;
+}
+
+// contact/footer
+
+.media-contact{
+
+  h3{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 20px;
+    color: #555555;
+    padding-bottom: 1.7rem;
+    margin: 0;
+  }
+
+  p{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2;
+    color: #555555;
+    padding-bottom: 2.2rem;
+    margin: 0;
+
+  }
+
+}
+
+}
+
+
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 16px;
+ 
+  // header
+    body{
+      padding: 5rem;
+    }
+
+  .main-nav > ul {
+    display:flex;
+    gap: 0.5rem;
+    visibility: visible;
+  }
+
+.unlisted {
+    list-style: none;
+}
+    
+  .main-nav__link{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 20px;
+    color: #555555;
+    padding-right: 1.75rem;
+  }
+
+  .main-nav__link1{
+    color: #FF3998;
+  }
+
+  .burger{
+    display: none;
+  }
+
+  .main-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+  
+  .btn{
+    margin-bottom: 14rem;
+  }
+
+  .btn1{
+    margin-bottom: 7.5rem;
+  }
+
+  .gradient-background{
+    border-radius: 10px;
+
+    h3{
+      padding-top: 7.5rem;
+      padding-left: 4rem;
+    }
+
+    p{
+      padding-bottom: 4rem;
+      padding-left: 4rem;
+    } 
+  }
+  
+
+  // company icons
+
+  .icon-container{
+    justify-content: center;
+    display: flex;
+    padding-bottom: 7.5rem;
+    padding-top: 7.5rem;
+  
+    img{
+      padding: 0 3.5rem 0 3.5rem;
+  }
+  
+  .hidden-icon{
+    display: flex;
+  }
+  }
+
+  // nft card
+
+  .nft-container-cards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7rem;
+  }
+
+  .nft-container__text-elements{
+
+    p{
+      padding-bottom: 3.5rem;
+    }
+  }
+
+  // 2nd launch
+
+  .launching-soon2{
+    display: flex;
+    text-align: left;
+    margin-right: 3.5rem;
+  
+    .launching-soon2__h2-element{
+      width: 700px;
+    }
+  
+    .launching-soon2__p-element{
+      width: 600px;
+      padding-bottom: 2.5rem;
+    }
+  }
+
+  .launching-soon2__h3-element{
+    h3{
+      padding-top: 7rem;
+    }
+  }
+
+  // footer
+
+  .container-copyright{
+
+    display: flex;
+    justify-content: space-between;
+
+    .container-copyright_hidden{
+      display: flex;
+    }
+
+    .container-copyright__{
+      margin: 0;
+      padding: 7.5rem 0 0;
+    }
+
+  }
+
+
+  .footer-container{
+      margin-top: 3rem;
+
+    img{
+      width: 198px;
+      margin-bottom: 2rem;
+    }
+    
+  }
+
+  .media-container-contacts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5rem;
+
+  }
+
+  .footer-container__media{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .media-container{
+    img{
+      margin: 0;
+    }
+
+    p{
+      padding-bottom: 2rem;
+    }
+  }
+}
+}
